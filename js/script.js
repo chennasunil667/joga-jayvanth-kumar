@@ -6,10 +6,6 @@ const next = slider.querySelector(".next");
 
 const prev = slider.querySelector(".prev");
 
-const next = document.querySelector(".next");
-
-const prev = document.querySelector(".prev");
-
 let current = 0;
 
 function showSlide(index){
