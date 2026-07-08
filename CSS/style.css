@@ -2445,3 +2445,63 @@ justify-content:center;
     color:inherit;
 
 }
+
+/* =========================
+   MOBILE NAVBAR
+========================= */
+
+@media (max-width:768px){
+
+.header{
+    top:10px;
+}
+
+.navbar{
+
+    width:98%;
+    margin:10px auto;
+
+    padding:12px 14px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    border-radius:18px;
+
+}
+
+.logo{
+
+    gap:8px;
+    font-size:15px;
+
+}
+
+.logo img{
+
+    width:34px;
+
+}
+
+.nav-links{
+
+    gap:12px;
+
+}
+
+.nav-links a{
+
+    font-size:11px;
+    font-weight:600;
+
+}
+
+.contact-btn{
+
+    padding:8px 12px;
+    font-size:11px;
+
+}
+
+}
